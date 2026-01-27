@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+}
+/* landing page */
+body{
+    font-family: "Roboto",sans-serif;
+    font-weight: 100;
+    background-image: url('./media/background.png');
+    background-size: cover;
+}
+h1,h2,h3{
+     font-family: "Special Gothic Expanded One", sans-serif;
+     font-weight: 400;
+}
+.nav{
+    position : relative;
+    align-items: center;
+    justify-content: space-between;
+    display :flex;
+    margin:0.5%;
+    padding: 1%;
+    
+}
+.logo{
+    padding :5px;
+    font-size: 2rem;
+    color:pink;
+}
+.links{
+    display : flex;
+    justify-content:space-around;
+    gap : 20px;
+    align-items: center;
+    padding: 5px;
+    list-style: none;
+    text-decoration: none;
+}
+.links li{
+    padding: 5px;
+    color: black;
+    font-size: 1.1em;
+    font-weight: 200;
+}
+.links li:hover{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color : pink;
+}
+
+.links a{
+    text-decoration: none;
+    color: black;
+}
+.links .active{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    color : rgb(236, 100, 122);
+    font-weight: 300;
+    text-decoration-color: pink;
+}
+.nav-button{
+   width : 7%;
+   padding: 10px;
+   background-color: pink;
+   color : white;
+   font-size: medium;
+   text-align: center;
+   border-radius:  100px;
+   cursor: pointer;
+   border : pink;
+}
+.nav button:hover{
+    background-color: rgb(245, 168, 178);
+}
+
+/* main section */
+main{
+    width: 100%;
+    height: 82vh;
+}
+.heading{
+    display: block;
+    height:auto;
+    width:auto;
+    margin-top: 3%;
+    font-size: 1.4rem;
+}
+main h1{
+    text-align: center;
+    letter-spacing: 0.2rem;
+}
+.heading span{
+    display: block;
+    margin-top: 20px;
+    color: pink
+}
+.hero-images{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    text-align: center;
+    margin-top: 2%;
+}
+.first-image,.third-image{
+    aspect-ratio: 1;
+    border-radius:100%;
+    width:8%;
+    padding: 20px;
+    overflow: hidden;
+}
+.first-image{
+    background-image: url('./media/avatar1.png');
+    background-size: cover;
+}
+.third-image{
+    background-image: url('./media/avatar3.png');
+    background-size: cover;
+}
+.second-image{
+    aspect-ratio: 1;
+    border-radius:100%;
+    width:12%;
+    padding: 20px;
+    overflow: hidden;
+    background-image: url('./media/avatar2.png');
+    background-size: cover;
+}
+.description{
+    display: flex;
+    margin-top: 20px;
+    color :rgb(99, 100, 100);
+    justify-content: center;
+    align-items: center;
+    width : 100%;
+    font-size: 1.2rem;
+}
+.description div{
+    text-align: center;
+    width: 50%;
+}
+.get-started{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+.get-started button{
+   width : 20%;
+   padding: 20px;
+   background-color: pink;
+   color : white;
+   font-size: 1.6rem;
+   text-align: center;
+   border-radius:  100px;
+   cursor: pointer;
+   border : pink;
+}
+.get-started button:hover{
+    background-color: rgb(245, 168, 178);
+}
+.footer-text{
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+/* About us page */
+
+/* main-about */
+
+.hero-about{
+    display: flex;
+}
+.hero-about-us{
+    width:50%;
+}
+.hero-about-us h1{
+    text-align: center;
+    font-size: 3rem;
+}
+.hero-about-us p{
+    text-align: center;
+    margin-top: 1%;
+    padding: 4%;
+    font-size: 1.3rem;
+    font-weight: 200;
+    color:rgb(84, 83, 83);
+}
+.hero-about-img{
+    display: flex;
+    width:50%;
+    justify-content: right;
+}
+.features{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap:10px;
+}
+.feature-card{
+    width: 40%;
+    padding:2%;
+    border-radius: 20px;
+    color:rgb(85, 84, 84);
+    background: rgba(245, 245, 245, 0.45);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+
+.feature-card h2{
+    padding: 10px;
+    border-bottom : 1px solid pink;
+    border-bottom-width: 2px;
+    color: pink;
+}
+.feature-card img{
+    width: 36px;
+    height: 36px;
+    opacity: 0.85;
+}
+.feature-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+.hero-about-features{
+    width: 100%;
+    display: grid;
+    place-items: center;
+}
+.stat-card{
+    display: flex;
+    width: 50%;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    border-radius: 20px;
+    background: rgba(245, 245, 245, 0.45);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
+}
+.stat-card h2{
+    color: pink;
+}
+.stat-card p{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 200;
+    color: rgb(94, 93, 91);
+}
+.stat-card img{
+  width: 36px;
+  height: 36px;
+  opacity: 0.85;
+
+}
+.stat-card:hover{
+     transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
+}
+.hero-about-img-avatar{
+    width:50%;
+}
