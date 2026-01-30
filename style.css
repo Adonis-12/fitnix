@@ -177,17 +177,41 @@ main h1{
 .hero-about-us{
     width:50%;
 }
-.hero-about-us h1{
-    text-align: center;
-    font-size: 3rem;
+.about-us-card {
+    position:relative;
+    width: 90%;
+    padding:2%;
+    margin: 3%;
+    border-radius: 20px;
+    color:rgb(85, 84, 84);
+    background: rgba(245, 245, 245, 0.45);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(20px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+    transition: transform 0.3s ease;
 }
-.hero-about-us p{
+.about-us-card img{
+     width: 36px;
+    height: 36px;
+    opacity: 0.85;
+}
+.about-us-card h1{
+    padding: 10px;
+    border-bottom : 1px solid pink;
+    border-bottom-width: 2px;
+    color: pink;
+}
+.about-us-card p{
     text-align: center;
     margin-top: 1%;
     padding: 4%;
     font-size: 1.3rem;
     font-weight: 200;
     color:rgb(84, 83, 83);
+}
+.about-us-card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.08);
 }
 .hero-about-img{
     display: flex;
@@ -223,6 +247,10 @@ main h1{
     width: 36px;
     height: 36px;
     opacity: 0.85;
+}
+.feature-card p{
+    padding: 5%;
+    font-size: 1.1rem;
 }
 .feature-card:hover {
   transform: translateY(-6px);
