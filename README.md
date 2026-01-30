@@ -1,13 +1,13 @@
-# Clone the Project
+## Clone the Project
 
 Make sure Git is installed on your system.
 
-# Clone the repository:
+## Clone the repository:
 ```
 git clone https://github.com/your-username/your-repo-name.git
 ```
 
-# Navigate into the project directory:
+## Navigate into the project directory:
 ```
 cd your-repo-name
 ```
