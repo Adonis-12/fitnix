@@ -297,3 +297,51 @@ main h1{
 .hero-about-img-avatar{
     width:50%;
 }
+
+/* Services */
+.services-hero>p{
+    text-align: center;
+    font-size: 1.3rem;
+    padding: 1%;
+}
+.services{
+    display: flex;
+    gap:20px;
+    justify-content: center;
+    text-align: center;
+}
+.service-card{
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+    background: rgba(245, 245, 245, 0.45);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+}
+
+.service-card-img{
+    overflow: hidden;
+    border-radius: 20px;
+    height:50%;
+}
+.service-card-img img{
+    width:100%;
+}
+.service-card h3{
+    margin-top: 10px;
+}
+.service-card p{
+    padding: 5%;
+}
+.service-card button{
+   width:50%;
+   padding: 15px;
+   background-color: pink;
+   font-size: 1.1rem;
+   color : white;
+   text-align: center;
+   border-radius:  100px;
+   cursor: pointer;
+   border : pink;
+}
