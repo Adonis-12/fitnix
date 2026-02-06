@@ -4,7 +4,7 @@ Make sure Git is installed on your system.
 
 ## Clone the repository:
 ```
-git clone https://github.com/your-username/your-repo-name.git
+git clone https://github.com/Adonis-12/fitnix.git
 ```
 
 ## Navigate into the project directory:
