@@ -9,7 +9,7 @@ git clone https://github.com/your-username/your-repo-name.git
 
 ## Navigate into the project directory:
 ```
-cd your-repo-name
+cd fitnix
 ```
 
 Open the project by launching index.html in a browser
